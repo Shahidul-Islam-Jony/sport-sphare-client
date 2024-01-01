@@ -1,6 +1,9 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;1,8..144,500;1,8..144,600;1,8..144,700&display=swap');
+
+
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +12,9 @@
 
 .font-carattere {
     font-family: 'Carattere', cursive;
+}
+.roboto-serif{
+    font-family: 'Roboto Serif', serif;
 }
 
 a{
@@ -30,4 +36,13 @@ a:hover{
     color: white;
     padding: 0 4px;
     border-radius: 4px;
+}
+
+/* text shadow */
+
+.text-shadow{
+    text-shadow: 4px 2px gray;
+    border-bottom: 2px solid gray;
+    /* border-left: 2px solid gray; */
+    border-width: 50px;
 }
