@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../assets/images/logo3.png'
+import { IoMdLogIn } from "react-icons/io";
 
 const Navbar = () => {
 
@@ -34,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className='btn btn-outline btn-sm lg:btn-md w-28 font-bold text-pink-500 border-pink-500 border-2 hover:bg-pink-500'><span className='text-base md:text-lg'>Login</span></button>
+                    <Link to='/login' className='btn btn-outline btn-sm lg:btn-md w-28 font-bold text-pink-500 border-pink-500 border-2 hover:bg-pink-500'><IoMdLogIn className='text-xl' /><span className='text-base md:text-lg'>Login</span></Link>
                 </div>
             </div>
         </div>
